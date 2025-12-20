@@ -3,31 +3,31 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Passport Application Guide | Nepal</title>
+    <title>Department of Passport</title>
     <link rel="stylesheet" href="./styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
   </head>
   <body>
     <header>
-      <a href="/">
-        <small>Government of Nepal</small>
-        <h1>Department of Passport</h1>
+      <a href="/" class="logo">
+        <img src="https://nepalpassport.gov.np/_next/image?url=%2Flogo.png&w=384&q=75" alt="logo of nepal government">
+        <div class="txt-logo">
+          <small>Government of Nepal</small>
+          <h1>Department of Passport</h1>
+        </div>
       </a>
         <ul class="nav-links">
         <a href="/"><li class="nav-link">Home</li></a>
         <a href="/about-us.html"><li class="nav-link">About Us</li></a>
-        <a href=""><li class="nav-link">Act and Rules</li></a>
-        <a href=""><li class="nav-link">Digital Citizens Charter</li></a>
-        <a href=""><li class="nav-link">Download</li></a>
-        <a href=""><li class="nav-link">Press & Notice</li></a>
-        <a href=""><li class="nav-link">Gallery</li></a>
-        <a href=""><li class="nav-link">Blog</li></a>
-        <a href=""><li class="nav-link">News & Events</li></a>
+        <a href="/press-and-notice.html"><li class="nav-link">Press & Notice</li></a>
+        <a href="/gallery.html"><li class="nav-link">Gallery</li></a>
+        <a href="/blog.html"><li class="nav-link">Blog</li></a>
+        <a href="/news-and-events.html"><li class="nav-link">News & Events</li></a>
       </ul>
     </header>
     <main>
       <section class="hero">
-        <h2>How to Apply for a Passport in Nepal?</h2>
+        <h3>How to Apply for a Passport in Nepal?</h3>
         <p>A simple, step-by-step informational guide to help Nepali citizens understand the passport application process.</p>
       </section>
       <section class="disclaimer">
@@ -204,6 +204,15 @@
           </details>
         </ul>
       </section>
+      <section class="status">
+        <h3>Check e-passport status</h3>
+        <form>
+          <label for="reference number">ENTER REFERENCE NUMBER</label>
+          <input type="text" name="reference number">
+        </form>
+        <button onclick="alert('Your passport is printing')">CHECK STATUS</button>
+      </section>
+      </section>
       <section class="faq-sec">
         <h2>Frequently Asked Questions (FAQs)</h2>
         <section class="faqs">
@@ -229,7 +238,7 @@
               <p>If there is an error in an already received passport, you will need to  apply for a new passport. To do this, you must complete the entire process again and pay the applicable fee as per the rules.</p>
             </details>
             <details>
-              <summart>While renewing a passport, is the renewed passport made with old passport number? I have a visa in my passport, what will happen if renewed? <i class="ri-arrow-down-s-line"></i></summart>
+              <summary>While renewing a passport, is the renewed passport made with old passport number? I have a visa in my passport, what will happen if renewed? <i class="ri-arrow-down-s-line"></i></summary>
               <p>No, when you renew your passport, a new passport number will be issued. However, since the old passport number is mentioned in the passport, both old and new passports can be carried together for travel, and the visa in the old passport is generally valid. However, since this depends on the rules of the destination country, it is advisable to check with the official authorities of that country.</p>
             </details>
           </ul>

@@ -27,6 +27,17 @@ header {
   background-color: cornflowerblue;
 }
 
+.logo {
+  display: flex;
+  column-gap: 10px;
+}
+
+.logo img {
+  height: auto;
+  width: 50px;
+  object-fit: cover;
+}
+
 h1 {
   line-height: 1;
   font-weight: 600;
@@ -92,7 +103,8 @@ ul:has(details) {
   row-gap: 10px;
 }
 
-summary {
+summary,
+.status {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -103,6 +115,13 @@ summary {
   border-radius: 5px;
   background-color: #e5e7eb;
   cursor: pointer;
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: default;
 }
 
 .ri-arrow-down-s-line {
@@ -129,6 +148,21 @@ ol {
 
 small {
   display: block;
+}
+
+form {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+input, button {
+  padding: 5px 10px;
+}
+
+button {
+  cursor: pointer;
 }
 
 footer {
@@ -166,6 +200,7 @@ h2 {
 .official img {
   width: 80px;
   height: auto;
+  object-fit: cover;
 }
 
 .name p {
@@ -182,4 +217,8 @@ h2 {
 
 .faqs details p {
   padding: 10px 20px;
+}
+
+input:focus {
+  outline: none;
 }

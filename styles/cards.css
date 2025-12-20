@@ -1,0 +1,29 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+}
+
+.card {
+  width: max-content;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 0 5px #00000050;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+img {
+  height: 300px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card p {
+  padding: 10px 10px 20px;
+}
