@@ -1,6 +1,8 @@
 .cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
   gap: 60px;
 }
 
@@ -26,4 +28,12 @@ img {
 
 .card p {
   padding: 10px 10px 20px;
+}
+
+@media (min-width: 1440px) {
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }

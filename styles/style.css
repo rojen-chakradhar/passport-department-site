@@ -33,7 +33,7 @@ header {
 }
 
 .logo img {
-  height: auto;
+  height: 50px;
   width: 50px;
   object-fit: cover;
 }
@@ -221,4 +221,29 @@ h2 {
 
 input:focus {
   outline: none;
+}
+
+.menu {
+  display: none;
+}
+
+.menu-icon {
+  display: unset;
+  border: none;
+  border-radius: 0;
+  font-size: 12px;
+  background-color: #1287fc;
+}
+
+@media (max-width: 730px) {
+  .nav {
+    display: none;
+  }
+  .menu {
+    display: unset;
+  }
+  li {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
 }
