@@ -50,5 +50,4 @@ Information may change over time-users should always verify details from officia
 - Open index.html.
 
 ### Option 2:
-- Open any browser you want.
-- Search departmentofpassport.netlify.app
+- [departmentofpassport.netlify.app](https://departmentofpassport.netlify.app)
