@@ -56,9 +56,13 @@ ul {
 
 .nav-links {
   width: max-content;
-  display: flex;
   gap: 2px;
   background-color: cornflowerblue;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
 }
 
 li {
