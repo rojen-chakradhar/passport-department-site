@@ -1,13 +1,13 @@
 .cards {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
   gap: 60px;
+  justify-content: space-between;
 }
 
 .card {
-  width: max-content;
+  width: 300px;
   border: 1px solid #e5e7eb;
   box-shadow: 0 0 5px #00000050;
   border-radius: 20px;
@@ -24,16 +24,18 @@ img {
 
 .card:hover {
   transform: translateY(-10px);
+  p{
+    color: cornflowerblue;
+  }
 }
 
 .card p {
   padding: 10px 10px 20px;
+  color: oklch(0.21 0.006 285.885);
 }
 
 @media (min-width: 1440px) {
   .cards {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: unset;
   }
 }
